@@ -1,0 +1,24 @@
+{
+  "name": "toprestaurant",
+  "version": "1.0.0",
+  "description": "Assignment for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikboren/topRestaurant.git"
+  },
+  "author": "Erik Borén",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikboren/topRestaurant/issues"
+  },
+  "homepage": "https://github.com/erikboren/topRestaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
