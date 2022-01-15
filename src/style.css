@@ -1,0 +1,38 @@
+body{
+   margin: 0; 
+}
+
+#navBar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #589997;
+}
+
+.navButton{
+    margin: 0 5px 0 5px;
+}
+
+#content{
+    background-image: url("empanadas.png");
+    background-position: center;
+    background-size: cover; 
+    margin:0;
+    height: 1000px;
+}
+
+#logo-container{
+    padding: 40px;
+}
+
+#logo{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 8px solid;
+    border-color: #ffad49;
+    font-size: 30px;
+    border-radius: 30px 50px;
+    font-family: 'Karla', sans-serif;
+}
