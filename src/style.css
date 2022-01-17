@@ -2,19 +2,42 @@ body{
    margin: 0;
    background-image: url("empanadas.png");
     background-position: center;
+    height: 900px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #555555;
+    margin:5px;
+}
+
+p{
+    color: #555555;
+    margin:5px;
+    font-family: Helvetica, sans-serif;
 }
 
 #navBar{
-    padding: 10px;
     display: flex;
     justify-content: center;
     background-color: #db862b;
 }
 
 .navButton{
-    margin: 0 5px 0 5px;
+    margin: 5px 20px;
+    width:60px;
+    height: 40px;
+    background-color:#feeec9;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #555555;
 }
 
+.navButton:hover{
+    background-color:#e7c473de ;
+}
 #content{
     margin:0;
     margin-top: 10px;
@@ -24,13 +47,19 @@ body{
     
     backdrop-filter: blur(10px) brightness(90%);
     width: 70%;
-    height: 1200px;
+    height: 700px;
     margin: auto;
     border-radius: 10px;
+    
 }
 
 
 #logo{
+    padding: 5px;
+    padding-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 65%;
     position: relative;
     margin: auto;
@@ -40,25 +69,31 @@ body{
     border-color: #ffad49;
     font-size: 50px;
     border-radius: 80px 80px 15px 15px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Galada', cursive;
     background-color: #db862b;
+    line-height: 100%;
 }
 
 .logoPic{
     background-color: transparent !important;
     width: 60px;
-    position: absolute;
     z-index: 1;
+    flex: none;
 }
 
-#logoPic1{
-    transform: rotate(-240deg);
-    right: 2%;
-    top:20%;
+.logoPic:hover{
+    transform: rotate(20deg);
 }
 
-#logoPic2{
-    left: 2%;
-    transform: rotate(180deg);
-    top:20%;
+.textBoxDiv{
+    margin: 40px;
+    border: 5px solid;
+    border-color:#db862b;
+    padding: 5px;
+    background-color: #feeec9;
+    border-radius: 25px 10px
+}
+
+#empanadasPhoto{
+    width: 400px;
 }
