@@ -2,8 +2,22 @@
 const body = document.querySelector("body");
 const contentDiv = document.getElementById("content");
 
+const footer = function(){
+    const footerDiv = document.createElement("div");
+    footerDiv.setAttribute("id","footerDiv");
 
+    const attribute = ["<a href='https://www.freepik.com/vectors/background'>Background vector created by barudakvisual - www.freepik.com</a>",
+        "<a href='https://www.freepik.com/photos/food'>Food photo created by wirestock - www.freepik.com</a>"];
 
+    attribute.forEach(attribution=>{
+        const element = document.createElement("div");
+        element.innerHTML = attribution;
+        element.classList.add("attribution");
+        footerDiv.appendChild(element);
+    });
+
+    body.appendChild(footerDiv);
+};
 
 const blurDiv = function(){
     const contentDiv = document.getElementById("content");
@@ -135,6 +149,7 @@ const navBar = function(){
 const startFunction = function(){
     navBar();
     homePage();
+    footer();
 };
 
 startFunction();

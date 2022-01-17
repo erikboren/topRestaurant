@@ -1,99 +1,120 @@
-body{
-   margin: 0;
-   background-image: url("empanadas.png");
-    background-position: center;
-    height: 900px;
-}
+    body{
+    margin: 0;
+    background-image: url("empanadas.png");
+        background-position: center;
+        height: 900px;
+    }
 
-h1{
-    font-family: sans-serif;
-    color: #555555;
-    margin:5px;
-}
+    h1{
+        font-family: sans-serif;
+        color: #555555;
+        margin:5px;
+    }
 
-p{
-    color: #555555;
-    margin:5px;
-    font-family: Helvetica, sans-serif;
-}
+    p{
+        color: #555555;
+        margin:5px;
+        font-family: Helvetica, sans-serif;
+    }
 
-#navBar{
-    display: flex;
-    justify-content: center;
-    background-color: #db862b;
-}
+    a{
+        color: #555555;
+        font-family: 'Bebas Neue', cursive;
+    }
 
-.navButton{
-    margin: 5px 20px;
-    width:60px;
-    height: 40px;
-    background-color:#feeec9;
-    border: 0px;
-    border-radius: 5px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    color: #555555;
-}
+    #navBar{
+        display: flex;
+        justify-content: center;
+        background-color: #db862b;
+        position: fixed;
+        top: 0;
+        left:0;
+        width:100%;
+        z-index:1;
+    }
 
-.navButton:hover{
-    background-color:#e7c473de ;
-}
-#content{
-    margin:0;
-    margin-top: 10px;
-}
+    .navButton{
+        margin: 5px 20px;
+        width:60px;
+        height: 40px;
+        background-color:#feeec9;
+        border: 0px;
+        border-radius: 5px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+        color: #555555;
+    }
 
-#blur-div{
-    
-    backdrop-filter: blur(10px) brightness(90%);
-    width: 70%;
-    height: 700px;
-    margin: auto;
-    border-radius: 10px;
-    
-}
+    .navButton:hover{
+        background-color:#e7c473de ;
+    }
+
+    #footerDiv{
+        background-color: #db862b;
+        color: #555555;
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    #content{
+        margin:0;
+        margin-top: 70px;
+    }
+
+    #blur-div{
+        backdrop-filter: blur(10px) brightness(90%);
+        width: 70%;
+        height: 700px;
+        margin: auto;
+        border-radius: 10px;
+        padding:10px;
+        
+    }
 
 
-#logo{
-    padding: 5px;
-    padding-top:10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 65%;
-    position: relative;
-    margin: auto;
-    text-align: center;
-    color: white;
-    border: 12px solid;
-    border-color: #ffad49;
-    font-size: 50px;
-    border-radius: 80px 80px 15px 15px;
-    font-family: 'Galada', cursive;
-    background-color: #db862b;
-    line-height: 100%;
-}
+    #logo{
+        padding: 5px;
+        padding-top:10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 65%;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        color: white;
+        border: 12px solid;
+        border-color: #ffad49;
+        font-size: 50px;
+        border-radius: 80px 80px 15px 15px;
+        font-family: 'Galada', cursive;
+        background-color: #db862b;
+        line-height: 100%;
+    }
 
-.logoPic{
-    background-color: transparent !important;
-    width: 60px;
-    z-index: 1;
-    flex: none;
-}
+    .logoPic{
+        background-color: transparent !important;
+        width: 60px;
+        z-index: 1;
+        flex: none;
+    }
 
-.logoPic:hover{
-    transform: rotate(20deg);
-}
+    .logoPic:hover{
+        transform: rotate(20deg);
+    }
 
-.textBoxDiv{
-    margin: 40px;
-    border: 5px solid;
-    border-color:#db862b;
-    padding: 5px;
-    background-color: #feeec9;
-    border-radius: 25px 10px
-}
+    .textBoxDiv{
+        margin: 40px;
+        border: 5px solid;
+        border-color:#db862b;
+        padding: 5px;
+        background-color: #feeec9;
+        border-radius: 25px 10px
+    }
 
-#empanadasPhoto{
-    width: 400px;
-}
+    #empanadasPhoto{
+        width: 400px;
+    }
