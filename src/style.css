@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Galada&display=swap');
+    
     body{
     margin: 0;
     background-image: url("empanadas.png");
@@ -8,6 +10,12 @@
     h1{
         font-family: sans-serif;
         color: #555555;
+        margin:5px;
+    }
+
+    h2{ 
+        font-family: sans-serif;
+        color: #7edad4;
         margin:5px;
     }
 
@@ -67,6 +75,7 @@
     #blur-div{
         backdrop-filter: blur(10px) brightness(90%);
         width: 70%;
+        max-width:800px;
         height: 700px;
         margin: auto;
         border-radius: 10px;
@@ -80,8 +89,8 @@
         padding-top:10px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        width: 65%;
+        justify-content: center;
+        max-width: 600px;
         position: relative;
         margin: auto;
         text-align: center;
@@ -102,6 +111,10 @@
         flex: none;
     }
 
+    .logoText{
+        flex-shrink: 3;
+    }
+
     .logoPic:hover{
         transform: rotate(20deg);
     }
@@ -117,4 +130,10 @@
 
     #empanadasPhoto{
         width: 400px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .menuItem{
+
     }
